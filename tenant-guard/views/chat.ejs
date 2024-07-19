@@ -1,0 +1,42 @@
+  <%- include('partials/head.ejs') %>
+  <link rel="stylesheet" href="/chat/styles.css">
+</head>
+<%- include('partials/nav.ejs')%>
+<div class="chatbot-abs-container">
+  <section class="chatbot-bubble-container">
+    <div class="chat-bubble chatbubble-from-bot">
+      <p>Hello, welcome to the chat bot. How can I help you today?</p>
+    </div>
+    <div class="chat-bubble chatbubble-from-user">
+      <p>Hi, I would like to access the survey.</p>
+    </div>
+    <div class="chat-bubble chatbubble-from-bot">
+      <form class="tenantguard-survey">
+        <!-- First Name Field -->
+        <label for="fname">First name</label>
+        <input type="text" id="fname" name="fname" required>
+        <!-- Last Name Field -->
+        <label for="lname">Last name</label>
+        <input type="text" id="lname" name="lname" required>
+        <!-- Email Field -->
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <!-- Phone Number Field -->
+        <label for="phone_number">Phone</label>
+        <input type="tel" id="phone_number" name="phone_number" required>
+
+        <input type="submit">
+      </form>
+    </div>
+  </section>
+  <form class="chatbot-input-container">
+    <input
+      type="text"
+      placeholder="Type your message here..."
+      class="chatbot-input"
+    />
+    <button class="chatbot-send-button" type="submit">Send</button>
+  </form>
+</div>
+<script type="module" src="/chat/app.js"></script>
+</body>

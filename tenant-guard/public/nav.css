@@ -1,0 +1,36 @@
+/* Navbar Styling */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 2rem;
+  background-color: #dddada;
+  align-items: center;
+}
+
+.navbar-logo__img {
+  padding: 0 20px;
+  width: 100%;
+  height: 20px;
+}
+
+.navbar-controls > a {
+  text-decoration: none;
+  color: #5a3e70;
+  font-size: 0.8rem;
+  margin: 0 9px;
+}
+
+.navbar-controls > a:hover {
+  color: #8e64af;
+}
+
+
+.active-navbar-control {
+  font-weight: 600;
+}
+
+
+.navbar-controls > a:last-child {
+  margin-right: 30px;
+}
