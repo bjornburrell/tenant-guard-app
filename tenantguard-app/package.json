@@ -1,0 +1,22 @@
+{
+  "name": "chat-bot-prototype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Dillon Troxell",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^10.0.0",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ws": "^5.0.2",
+    "helmet": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
