@@ -1,0 +1,50 @@
+/*
+  <div class="faq-question-list__container">
+    <div class="faq-question__container">
+     <div class="faq-question-question__container">
+      <h2 class="faq-question-question__header">What is TenantGuard?</h2>
+      <i class="faq-question-question__button fa-solid fa-chevron-down"></i>
+     </div>
+    <div class="faq-answer-container">
+      <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
+    </div>
+  </div>
+*/
+
+/*FAQ Section Styling*/
+
+.faq-section__header {
+  font-size: 3rem;
+  margin: 15px 0px;
+  text-align: center;
+}
+
+.faq-question-list__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq-question__container {
+  background-color: var(--faq-question-primary);
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  width: 90%;
+  padding: 1rem 1rem;
+  margin: 0.3rem 0rem;
+}
+
+.faq-question-question__container,
+.faq-answer__container{
+  margin: 0.6rem 0.3rem;
+}
+
+.faq-question-question__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq-question-question__header {
+  font-size: 1.25rem;
+}

@@ -1,0 +1,25 @@
+  <%- include('partials/head.ejs') %>
+  <link rel="stylesheet" href="/css/chat/styles.css">
+</head>
+<%- include('partials/nav.ejs') %>
+<div class="container">
+  <section class="chat-abs__container">
+    <section class="chat-message__container">
+      <div class="chat-bubble__container chat-bubble__container--bot">
+        <p class="chat-bubble__message"><%= defaultBotMsg %></p>
+        <p class="chat-bubble__timestamp"></p>
+      </div>
+      <div class="chat-bubble__container chat-bubble__container--user">
+        <p class="chat-bubble__message">Hello</p>
+        <p class="chat-bubble__timestamp"></p>
+      </div>
+      <form class="chat-entry__form">
+        <input type="text" placeholder="Type a message..." class="chat-entry__input">
+        <button class="chat-entry__button" type=submit>Send</button>
+      </form>
+    </section>
+    </div>
+  </section>
+</div>
+<script src="/js/chat.js"></script>
+<%- include('partials/end.ejs') %>

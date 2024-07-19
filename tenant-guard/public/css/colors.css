@@ -1,0 +1,13 @@
+:root {
+  --tenantguard-main: #5a3e71;
+  --tenantguard-main-lighter: #9a6dbf;
+  --tenantguard-main-darker: #3b284a;
+  --navbar-primary: #dddada;
+  --faq-question-primary: #f1f1f1;
+  --chat-message-container-primary: #f1f1f1;
+  --chat-message-container-secondary: #dbdbdb;
+}
+
+.hidden {
+  display: none;
+}

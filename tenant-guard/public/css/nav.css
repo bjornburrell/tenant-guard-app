@@ -1,0 +1,39 @@
+/* Navbar Styles */
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--navbar-primary);
+}
+
+.nav__logo,
+.nav-controls__container {
+  margin: 5px 10px;
+}
+
+.nav__logo:hover {
+  cursor: pointer;
+}
+
+.nav__logo__img {
+  width: 100%;
+  height: 20px;
+}
+
+.nav-controls__link {
+  font-size: 0.85rem;
+  margin: 0 2px;
+  text-decoration: none;
+  color: var(--tenantguard-main);
+}
+
+.nav-controls__link:hover {
+  cursor: pointer;
+  color: var(--tenantguard-main-lighter);
+}
+
+.nav-controls__link--active {
+  color: var(--tenantguard-main-lighter);
+  font-weight: 600;
+}

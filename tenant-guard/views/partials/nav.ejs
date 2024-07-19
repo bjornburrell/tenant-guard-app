@@ -1,0 +1,20 @@
+<body>
+  <header>
+    <nav class="nav__container">
+      <div class="nav__logo">
+        <a class="nav__logo__link" href="/">
+          <img
+            alt="Lady assisting a homeless man sitting on the sidewalk"
+            class="nav__logo__img"
+            src="/imgs/tenantguard-logo.png"
+          />
+        </a>
+      </div>
+
+      <div class="nav-controls__container">
+        <a href="/" class="nav-controls__link <%= path === '/' ? 'nav-controls__link--active' : '' %>">Home</a>
+        <a href="/chat" class="nav-controls__link <%= path === '/chat' ? 'nav-controls__link--active' : '' %>">Chat</a>
+        <a href="/about" class="nav-controls__link <%= path === '/about' ? 'nav-controls__link--active' : '' %>">About</a>
+      </div>
+    </nav>
+  </header>
